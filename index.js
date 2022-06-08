@@ -7,8 +7,15 @@ function saturdayFun(activity="roller-skate") {
     return `This Monday, I will ${activity}.`
   }
   
-  let wrapAdjective = function(style="*") {
-    return function(adjective="special") {
-      return `You are ${style}${adjective}${style}!`
+   let wrapAdjective = function(style="*") {
+     return function(adjective="special") {
+       return `You are ${style}${adjective}${style}!`
+     }
     }
-  }
+
+
+  // let wrapAdjective = function(style='||') {
+  //   return function(adjective="a dedicated programmer"){
+  //   return`You are ${style}${adjective} ${style}!`
+  //   }
+  // }
